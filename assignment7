@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <title>Ib's World</title>
+  </head>
+
+  <body>
+    <center><h1>Welcome to my world.</h1></center>
+      <center><script>
+        const day = new Date().getDay();
+
+        switch (day) {
+          case 0:
+          document.write("Today is Monday, and it sucks...");
+
+            break;
+          case 1:
+          document.write("Today is Monday, and it sucks...");
+
+            break;
+          case 2:
+          document.write("Pens vs Caps");
+
+            break;
+          case 3:
+          document.write("Its Hump Daaaaaaaay");
+
+            break;
+          case 4:
+            document.write("Thirsty Thursday");
+
+            break;
+          case 5:
+            document.write("12 hour shift Day");
+
+            break;
+          case 6:
+            document.write("Saturday");
+
+            break;
+          case 7:
+            document.write("Something went wrong");
+              break;
+          default:
+
+        }
+
+
+      </script></center>
+      <center><script>
+      var start = 1;
+
+      while(start <=38)
+      {
+        start++;
+        if(start==38)
+      {
+     document.write(start + " Untill I leave,");
+      }
+      }
+
+
+      var text = " ";
+      var i = 0;
+      do{
+      text = " My birthday is in " + i + " days";
+      i++;
+      }
+      while(i <= 236)
+      document.write(text);
+
+
+
+
+
+
+
+
+
+
+      </script></center>
+      <p> as you see here all my JV script code is working, and I did not put any picture because of not finding the necessity, aaaaand bc of laziness</p>
+
+
+
+
+  </body>
+</html>
